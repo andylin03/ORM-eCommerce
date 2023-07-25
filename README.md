@@ -95,3 +95,9 @@ stock
 
 1. Integer
 2. References the tag model's id
+
+# Video Reference(Get, Post, Put, Delete)
+
+
+https://github.com/andylin03/ORM-eCommerce/assets/126199540/e16af2df-80ee-40b8-9ff4-27d1592865fc
+
