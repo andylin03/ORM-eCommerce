@@ -23,67 +23,75 @@ THEN I am able to successfully create, update, and delete data in my database
 # Database Models
 - Category
 
-id
+- id
 
-Integer
-Doesn't allow null values
-Set as primary key
-Uses auto increment
-category_name
+1. Integer
+2. Doesn't allow null values
+3. Set as primary key
+4. Uses auto increment
+   
+- category_name
 
-String
-Doesn't allow null values
-Product
+1. String
+2. Doesn't allow null values
+3. Product
 
-id
+- id
 
-Integer
-Doesn't allow null values
-Set as primary key
-Uses auto increment
-product_name
+1. Integer
+2. Doesn't allow null values
+3. Set as primary key
+4. Uses auto increment
+   
+- product_name
 
-String
-Doesn't allow null values
-price
+1. String
+2. Doesn't allow null values
 
-Decimal
-Doesn't allow null values
-Validates that the value is a decimal
+- price
+
+1. Decimal
+2. Doesn't allow null values
+3. Validates that the value is a decimal
 stock
 
-Integer
-Doesn't allow null values
-Set a default value of 10
-Validates that the value is numeric
-category_id
+- Integer
+1. Doesn't allow null values
+2. Set a default value of 10
+3. Validates that the value is numeric
 
-Integer
-References the category model's id
-Tag
+- category_id
 
-id
+1. Integer
+2. References the category model's id
 
-Integer
-Doesn't allow null values
-Set as primary key
-Uses auto increment
-tag_name
+- Tag
 
-String
-ProductTag
+- id
 
-id
+1. Integer
+2. Doesn't allow null values
+3. Set as primary key
+4. Uses auto increment
+   
+- tag_name
 
-Integer
-Doesn't allow null values
-Set as primary key
-Uses auto increment
-product_id
+1. String
+2. ProductTag
 
-Integer
-References the product model's id
-tag_id
+- id
 
-Integer
-References the tag model's id
+1. Integer
+2. Doesn't allow null values
+3. Set as primary key
+4. Uses auto increment
+   
+- product_id
+
+1. Integer
+2. References the product model's id
+   
+- tag_id
+
+1. Integer
+2. References the tag model's id
